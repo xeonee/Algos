@@ -11,6 +11,7 @@ public static void main(String[] args) {
 	arr  = Arrays.asList(arrr);
 	System.out.println(rotateArray(arr, 56));
 }
+
 public static ArrayList<Integer> rotateArray(List<Integer> arr, int B) {
 	B =  B % arr.size();
 	System.out.println(B);
